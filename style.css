@@ -1,0 +1,10 @@
+.container-main{
+    display: flex;
+    background-color: rgb(26, 25, 25);
+    color: aliceblue;
+}
+.btn{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
