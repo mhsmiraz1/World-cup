@@ -1,10 +1,87 @@
 .container-main{
     display: flex;
-    background-color: rgb(26, 25, 25);
+    justify-content: space-around;
+    background-color: #161616;
     color: aliceblue;
+    align-items: center;
+    margin: 50px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.container-right{
+    width: 60%;
+}
+.text{
+    align-items: center;
+    margin-bottom: 45px;
 }
 .btn{
     background-color: red;
-    padding: 10px;
+    padding: 14px;
+    width: 145px;
+    border-radius: 7px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: black;
+}
+.container-details{
+    margin-left: 40px;
+    font-family: 'Arvo', serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.container-right{
+    width: 100%;
+    height: auto;
+}
+.container {
+    height: 100vh;
+    width: auto;
+    margin: 50px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 250px repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.gap{
+    max-width: 400px;
+}
+.sidebar{
+    border-radius: 20px;
+    grid-row: 1 / -1;
+}
+.sidebar-text{
+    border-radius: 20px;
+    height: 250px;
+    background-color: #161616;
     color: white;
+    padding: 15px;
+}
+.sidebar-text > h2{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+button{
+    margin-top: 15px;
+}
+.copyright {
+    height: 300px;
+    width: auto;
+    background-color: #161616;
+    color: #fff;
+    text-align: center; 
+    align-items: center;
+    margin-top: 250px;
+}
+.copyright > p {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-right: 25px;
+    font-size: 22px;
 }
